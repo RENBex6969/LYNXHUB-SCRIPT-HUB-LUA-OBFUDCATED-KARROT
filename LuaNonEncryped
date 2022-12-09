@@ -1,0 +1,246 @@
+ 
+
+
+
+local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+ 
+local s = VLib:Window("LynXHub", "By LynX", "Premium")
+ 
+local ss = s:Tab("ScriptHub")
+ 
+ss:Button("-HoHoHub",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+ 
+ss:Button("-ZenHub",function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bfmobile", true))()
+end)
+
+ss:Button("SMZHub",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Frerfgzz/free-script/main/SMZHUBv2BETA"))()
+end)
+ 
+ss:Button("Fly (Bypassed)",function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/EgDPyig8'))()    
+end)
+ 
+ss:Slider("WalkSpeed",0,500,16,function(t)
+   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = t
+end)
+ 
+ss:Slider("JumpPower",0,500,50,function(t)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = t
+ end)
+ 
+ss:Button("Reset Walk and Jump",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+ 
+ss:Button("IY (Infinite Yield)",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+ 
+ss:Button("-TitanicGui",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptsLynX/LynX/main/KeySystem/Loader.lua"))()
+end)
+
+ss:Button("LynXHub(Old)",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/RENBex6969/PoweringLynX-Obfuscate-GameHublynx/main/Q'))()
+end)
+ 
+local sss = s:Tab("OtherScript")
+ 
+-- Table
+getgenv().Boolean = false
+ 
+
+ 
+sss:Button("Anti Afk",function()
+    local vu = game:GetService("VirtualUser")
+    game:GetService("Players").LocalPlayer.Idled:connect(function()
+       vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+       wait(1)
+       vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+    end)
+end)
+ 
+sss:Button("1x1x1x1(NonFe)",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/1x1/main/1x1x1x1'))()
+end)
+
+sss:Button("TOH",function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/BbVHjH56'))()
+end)
+
+sss:Button("Doors!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+end)
+
+sss:Button("Starving artist",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/aCFfd9Uq"))()
+end)
+
+sss:Button("RGT/Roblox Got talent",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sgesa/PrivateHuv/main/300songsPianoScript.lua", true))()
+end)
+
+sss:Button("Rtx(NonLag)",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RTX%20Gui%20Hub%20Obfuscator'))()
+end)
+ 
+sss:Button("BypassTags(MightGetBan)",function()
+
+loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+end)
+
+sss:Button("VHub",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Quan8008/V-Hub/Master/Launch-Screen.lua"))()
+end)
+
+
+sss:Button("MoonHub(30+Scripts)",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/LwQkm563"))()
+end)
+
+sss:Button("DaHood",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AtomGotIce/Scripts/main/Da%20hood%20aim'))()
+end)
+
+sss:Button("Netless",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/ULA6Y3gH", true))()
+end)
+
+sss:Button("MM2(MurderMystery)",function()
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))();
+end)
+
+sss:Button("BreakInStory",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TrixAde/Proxima-Hub/main/Main.lua"))()
+end)
+
+sss:Button("UniversalTime",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TweedLeak/Scripts/main/A-Universal-Time"))()
+end)
+
+sss:Button("Linkvertise(ScriptBypass)",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Woutt/Lua-Scripts/main/bypass.lua"))()
+end)
+
+sss:Button("3008",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5P0C3BK9"))()
+end)
+
+sss:Button("Insane(BrookhavenScript)",function()
+
+loadstring(game:HttpGet("https://gist.githubusercontent.com/testttbqwebg/adc0db730f5dfca0d8dbdb81f3b65391/raw/b0443888c4399af5a297cb1100a4749c65705711/qweqw", true))()
+end)
+
+sss:Button("GameHubDestroyer",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-HUB-Destroyer-V3/main/Games%20HUB%20Destroyer%20V3"))()
+end)
+
+sss:Label("More Soon")
+
+local ssss = s:Tab("Sus Scripts")
+
+ssss:Button("NekoScript",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+
+ssss:Button("SusFe",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/8cw7FMq4", true))()
+end)
+
+sss:Button("Raise A Floppa 2",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tip52/Leo-hub/main/loader.lua"))()
+end)
+
+sss:Button("Piano Player 3.3V",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MADNESSTEST/iq8if/main/owodjjb.lua", true))()
+end)
+
+sss:Button("Piano Player 3.2V",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Madness676/3.2Lol/main/AutoPiano3-2.lua", true))()
+end)
+
+sss:Button("Inf Coins Baft Fe Maybe",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/WinterDinder/silver-couscous/main/masage.lua"))()
+end)
+
+sss:Button("Gui Baft",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/Script.lua"))()
+end)
+
+sss:Button("AutoFarm(Baft)",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/BABFT/main/Ruby%20Hub", true))()
+end)
+
+sss:Button("Troll(Fe)",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/8cw7FMq4", true))()
+end)
+
+sss:Button("BidBatlles",function()
+
+loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+end)
+
+sss:Button("Old(LynXHub)",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RENBex6969/123-/main/lua"))()
+end)
+
+sss:Button("Work at a Pizza Place (AutoFarm)",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR",true))()
+end)
+
+sss:Button("2Work At a pizza Place(AutoFarm)",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/cEwtwKZR",true))()
+end)
+
+sss:Button("TpAll(WorkAtAPizzaPlace)",function()
+
+for _, v in pairs(game:GetService("Workspace").KrustyKrab:GetDescendants()) do if v:IsA("TouchTransmitter") or v:IsA("TouchInterest") then firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart or game.Players.LocalPlayer.Character.Torso, v:FindFirstAncestorWhichIsA("Part"),0) end end
+end)
+
+ssss:Label("More Soon")
+
+local sssss = s:Tab("Credits")
+ 
+sssss:Label("Powered By LynX")
+sssss:Label("Gui By -LynX")
+sssss:Label("Tester -Charles")
+sssss:Label("Scripting By LynX")
+sssss:Label("Tester-UnspeakableArmy104")
+sssss:Label("Credits To Panda For RGT/Piano script")
+sssss:Label("Discord-https://discord.gg/Y35FuaTXxr")
+sssss:Label("All credits Are Declared To Be Respected")
