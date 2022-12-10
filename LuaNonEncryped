@@ -232,6 +232,17 @@ sss:Button("TpAll(WorkAtAPizzaPlace)",function()
 for _, v in pairs(game:GetService("Workspace").KrustyKrab:GetDescendants()) do if v:IsA("TouchTransmitter") or v:IsA("TouchInterest") then firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart or game.Players.LocalPlayer.Character.Torso, v:FindFirstAncestorWhichIsA("Part"),0) end end
 end)
 
+sss:Button("Fe(Lag)",function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/VM3b0Thg'))()
+end)
+
+sss:Button("DestroyAudios(Fe)",function()
+
+loadstring(game:HttpGet('https://pastebin.com/MPEABg3Y'))()
+end)
+
+
 ssss:Label("More Soon")
 
 local sssss = s:Tab("Credits")
