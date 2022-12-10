@@ -1,6 +1,3 @@
- 
-
-
 
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
  
@@ -239,7 +236,7 @@ end)
 
 sss:Button("DestroyAudios(Fe)",function()
 
-loadstring(game:HttpGet('https://pastebin.com/MPEABg3Y'))()
+loadstring(game:HttpGet('https://pastebin.com/raw/MPEABg3Y'))()
 end)
 
 
