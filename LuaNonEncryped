@@ -244,9 +244,9 @@ sss:Button("BlockTycoon(GetAll)",function()
 local args = {[1] = 3}game:GetService("ReplicatedStorage").DataRequestF:InvokeServer(unpack(args))
 end)
 
-sss:Button("",function()
+sss:Button("BlockTycoon(GetAll)",function()
 
-
+loadstring(game:HttpGet('https://pastebin.com/raw/hVKmd8MT'))()
 end)
 
 
