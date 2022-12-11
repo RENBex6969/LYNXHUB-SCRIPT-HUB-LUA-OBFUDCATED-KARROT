@@ -239,6 +239,17 @@ sss:Button("DestroyAudios(Fe)",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/MPEABg3Y'))()
 end)
 
+sss:Button("BlockTycoon(GetAll)",function()
+
+local args = {[1] = 3}game:GetService("ReplicatedStorage").DataRequestF:InvokeServer(unpack(args))
+end)
+
+sss:Button("",function()
+
+
+end)
+
+
 
 ssss:Label("More Soon")
 
@@ -252,3 +263,4 @@ sssss:Label("Tester-UnspeakableArmy104")
 sssss:Label("Credits To Panda For RGT/Piano script")
 sssss:Label("Discord-https://discord.gg/Y35FuaTXxr")
 sssss:Label("All credits Are Declared To Be Respected")
+sssss:Label("70+Scripts")
