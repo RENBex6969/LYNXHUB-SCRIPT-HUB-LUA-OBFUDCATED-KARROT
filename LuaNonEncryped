@@ -249,8 +249,30 @@ sss:Button("BlockTycoon(GetAll)",function()
 loadstring(game:HttpGet('https://pastebin.com/raw/hVKmd8MT'))()
 end)
 
+sss:Button("RGTScript",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Singularity5490/rgt/main/piano.lua'))()
+end)
+
+sss:Button("PsxFakeTrade",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FAHD-DEV/PSXDUPE/main/PsxDuper", true))()
+end)
+
+sss:Button("PsxDupe",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/1cc4aQXc"))()
+end)
+
+sss:Button("",function()
 
 
+end)
+
+sss:Button("",function()
+
+
+end)
 ssss:Label("More Soon")
 
 local sssss = s:Tab("Credits")
