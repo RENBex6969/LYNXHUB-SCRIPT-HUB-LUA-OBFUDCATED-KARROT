@@ -26,13 +26,19 @@ end)
 
 ss:Button("ThunderZ(Beta)",function()
 
-ss:Button("ShiftLock(1yrOld)",function()
-
-loadstring(game:HttpGet("https://pastebin.com/raw/2wyvTzVd"))()
-end)
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
 end)
+
+ss:Button("CFrame(BloxFruit)",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruitV2.lua"))()
+end)
+
+ss:Button("ShiftLock(1yrOld)",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/LnAUPBXj",true))()
+end)
+
  
 ss:Button("Fly (Bypassed)",function()
 
@@ -64,6 +70,7 @@ ss:Button("LynXHub(Old)",function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/RENBex6969/PoweringLynX-Obfuscate-GameHublynx/main/Q'))()
 end)
+
  
 local sss = s:Tab("OtherScript")
  
