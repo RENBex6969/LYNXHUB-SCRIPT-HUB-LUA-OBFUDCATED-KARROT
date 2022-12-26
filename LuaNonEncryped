@@ -23,6 +23,16 @@ ss:Button("SMZHub",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Frerfgzz/free-script/main/SMZHUBv2BETA"))()
 end)
+
+ss:Button("ThunderZ(Beta)",function()
+
+ss:Button("ShiftLock(1yrOld)",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/2wyvTzVd"))()
+end)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-05/HUB/main/Mobile-Loader"))()
+end)
  
 ss:Button("Fly (Bypassed)",function()
 
@@ -280,6 +290,42 @@ sss:Button("DaHood",function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/AtomGotIce/Scripts/main/Da%20hood%20aim'))()
 end)
 ssss:Label("More Soon")
+
+sss:Button("Sheeet(Piano)",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+end)
+
+
+sss:Button("Prison,Life",function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/LnAUPBXj",true))()
+end)
+
+sss:Button("",function()
+
+
+end)
+
+sss:Button("",function()
+
+
+end)
+
+sss:Button("",function()
+
+
+end)
+
+sss:Button("",function()
+
+
+end)
+
+sss:Button("",function()
+
+
+end)
 
 local Others = s:Tab("Others")
 
