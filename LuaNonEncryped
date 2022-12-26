@@ -3,6 +3,12 @@ local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/
  
 local s = VLib:Window("LynXHub", "By LynX", "Premium")
  
+game.Players.PlayerRemoving:connect(function(player)
+	if game.PlaceId == 7772810845 then
+		player:Kick("This game is not supported.")
+	end
+end)
+
 local ss = s:Tab("ScriptHub")
  
 ss:Button("-HoHoHub",function()
@@ -278,7 +284,7 @@ ssss:Label("More Soon")
 local sssss = s:tab("Version")
 
 sssss:Label("Current Version")
-sssss:Label("DeveloperVersion:019318D3)
+sssss:Label("DeveloperVersion:019318D3")
 sssss:label("ID:PremiumHub12301")
 
 
