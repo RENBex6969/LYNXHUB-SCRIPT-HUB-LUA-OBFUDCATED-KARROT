@@ -281,21 +281,34 @@ sss:Button("",function()
 end)
 ssss:Label("More Soon")
 
-local sssss = s:tab("Version")
-
-sssss:Label("Current Version")
-sssss:Label("DeveloperVersion:019318D3")
-sssss:label("ID:PremiumHub12301")
+local Others = s:Tab("Others")
 
 
-local ssssss = s:Tab("Credits")
+Others:Button("AntiBan",function()
+
+local userId = game.Players.LocalPlayer.userId
+local player = game.Players:GetPlayerByUserId(userId)
+
+player.MaximumSimulationRadius = 0
+player.SimulationRadius = 0
+player.MaximumSimulationRadiusInfinite = true
+end)
+
+Others:Button("",function()
+
+
+end)
+
+
+
+local Credits = s:Tab("Credits")
  
-ssssss:Label("Powered By LynX")
-ssssss:Label("Gui By -LynX")
-ssssss:Label("Tester -Charles")
-ssssss:Label("Scripting By LynX")
-ssssss:Label("Tester-UnspeakableArmy104")
-ssssss:Label("Credits To Panda For RGT/Piano script")
-ssssss:Label("Discord-https://discord.gg/Y35FuaTXxr")
-ssssss:Label("All credits Are Declared To Be Respected")
-ssssss:Label("70+Scripts")
+Credits:Label("Powered By LynX")
+Credits:Label("Gui By -LynX")
+Credits:Label("Tester -Charles")
+Credits:Label("Scripting By LynX")
+Credits:Label("Tester-UnspeakableArmy104")
+Credits:Label("Credits To Panda For RGT/Piano script")
+Credits:Label("Discord-https://discord.gg/Y35FuaTXxr")
+Credits:Label("All credits Are Declared To Be Respected")
+Credits:Label("70+Scripts")
