@@ -1,4 +1,3 @@
-
 local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
  
 local s = VLib:Window("LynXHub", "By LynX", "Premium")
@@ -309,19 +308,21 @@ sss:Button("Prison,Life",function()
 loadstring(game:HttpGet("https://pastebin.com/raw/LnAUPBXj",true))()
 end)
 
-sss:Button("",function()
+sss:Button("HeadAdmin(BridgeWorm)",function()
 
-
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-17014, 71, -1186)
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1657, 114, -1317)
 end)
 
-sss:Button("",function()
+sss:Button("BridgeWorm(AdminPanel(Mobile)",function()
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FishSticks13/Bridge-Worm-Admin-Gui/main/Bridge Worm Admin Gui Plus"))() 
 end)
 
-sss:Button("",function()
+sss:Button("BridgeWorm(AdminPanel(PC)",function()
 
-
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/FishSticks13/Bridge-Worm-Admin-Gui/main/Bridge%20Worm%20Admin%20Gui%20Plus'),true))()
 end)
 
 sss:Button("",function()
@@ -365,3 +366,10 @@ Credits:Label("Credits To Panda For RGT/Piano script")
 Credits:Label("Discord-https://discord.gg/Y35FuaTXxr")
 Credits:Label("All credits Are Declared To Be Respected")
 Credits:Label("70+Scripts")
+
+local userId = game.Players.LocalPlayer.userId
+local player = game.Players:GetPlayerByUserId(userId)
+
+player.MaximumSimulationRadius = 0
+player.SimulationRadius = 0
+player.MaximumSimulationRadiusInfinite = true
